@@ -314,11 +314,13 @@ body {
   -webkit-box-sizing: border-box;
           box-sizing: border-box; }
 
+html {
+  font-size: 12px; }
+
 body {
   background: #010001;
   margin: 0;
-  padding-top: 53px;
-  font-size: 12px; }
+  padding-top: 53px; }
 
 .nav__list {
   display: -webkit-box;
