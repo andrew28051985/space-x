@@ -317,10 +317,48 @@ body {
 body {
   background: #010001;
   margin: 0;
-  padding-top: 53px; }
+  padding-top: 53px;
+  font-size: 12px; }
 
-header {
+.nav__list {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0; }
+
+.nav__link {
+  text-decoration: none; }
+
+.list__item {
+  margin-right: 20px; }
+  .list__item:last-child {
+    margin-right: 0; }
+
+.header {
   border: 0px solid red;
   max-width: 1230px;
   width: 90%;
-  margin: auto; }
+  margin: auto;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center; }
+
+.nav {
+  font-size: 1em;
+  line-height: 1.16em; }
+  .nav__link--main {
+    color: #fff; }
+  .nav__link--secondary {
+    color: #808080; }
