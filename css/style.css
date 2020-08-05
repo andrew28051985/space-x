@@ -347,8 +347,7 @@ body {
     margin-right: 0; }
 
 .section__title {
-  text-align: center;
-  margin-bottom: 32px; }
+  text-align: center; }
 
 .text {
   margin: 0; }
@@ -393,3 +392,14 @@ body {
     line-height: 140%;
     text-align: center;
     text-transform: lowercase; }
+    .title__main--description::after {
+      content: ' ';
+      display: block;
+      background: #fff;
+      width: 1px;
+      height: 56px;
+      margin: auto;
+      margin-top: 26px; }
+
+.video {
+  height: 750px; }
