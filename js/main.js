@@ -6,3 +6,5 @@ var instance = new vidbg('.world', {
 }, {
   // Attributes
 })
+
+var rellax = new Rellax('.description__rocket');

@@ -347,7 +347,14 @@ body {
     margin-right: 0; }
 
 .section__title {
-  text-align: center; }
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 140%;
+  text-transform: uppercase;
+  margin-bottom: 45px; }
+  .section__title-sait {
+    text-align: center; }
 
 .text {
   margin: 0; }
@@ -403,3 +410,38 @@ body {
 
 .video {
   height: 750px; }
+
+.world {
+  margin-bottom: 200px; }
+
+.section__description {
+  margin-bottom: 200px;
+  position: relative; }
+
+.section__title {
+  max-width: 177px; }
+
+.description__table {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 179.69%;
+  margin-bottom: 218px; }
+
+.description__text {
+  max-width: 490px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 29px; }
+  .description__text--dark {
+    color: #B2B0B2; }
+
+.description__rocket {
+  position: absolute;
+  top: 100;
+  right: 0;
+  z-index: 99; }
+
+.table__column {
+  width: 250px; }
