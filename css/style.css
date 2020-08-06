@@ -441,6 +441,7 @@ body {
 
 .description__rocket {
   position: absolute;
+  max-width: 300px;
   top: 100;
   right: 0;
   z-index: 99; }
