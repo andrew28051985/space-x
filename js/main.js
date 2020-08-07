@@ -7,7 +7,10 @@ var instance = new vidbg('.world', {
   // Attributes
 })
 
+AOS.init();
+
 var rellax = new Rellax('.description__rocket');
 if (document.body.clientWidth < 769) {
   rellax.destroy();
 }
+

@@ -5,14 +5,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/vidbg.css">
+  <link rel="stylesheet" href="css/aos.css">
   <link rel="stylesheet" href="css/style.css">
   <title>Space X</title>
 </head>
 <body>
   <header class="header container">
-    <img src="img/logo.svg" alt="logo">
+    <img src="img/logo.svg" alt="logo" data-aos="fade-right" data-aos-delay="300">
 
-    <nav class="nav nav__main">
+    <nav class="nav nav__main" data-aos="fade-down" data-aos-delay="400">
       <ul class="nav__list">
         <li class="list__item"><a href="#" class="nav__link nav__link--main">Falcon 9</a></li>
         <li class="list__item"><a href="#" class="nav__link nav__link--main">Falcon Heavy</a></li>
@@ -21,7 +22,7 @@
       </ul>
     </nav>
     
-    <nav class="nav nav__secondary">
+    <nav class="nav nav__secondary" data-aos="fade-left" data-aos-delay="500">
       <ul class="nav__list">
         <li class="list__item"><a href="#" class="nav__link nav__link--secondary">About</a></li>
         <li class="list__item"><a href="#" class="nav__link nav__link--secondary">Gallery</a></li>
@@ -31,22 +32,22 @@
   </header>
 
   <section class="section__title-sait container">
-    <h1 class="title__main">
+    <h1 class="title__main" data-aos="zoom-in" data-aos-delay="800">
       Falcon Heavy
     </h1>
-    <p class="text title__main--description">
+    <p class="text title__main--description" data-aos="fade-up" data-aos-delay="1000">
       The most powerful operational rocket in the world by a factor of two
     </p>
   </section>
 
-  <div class="video world container"> </div>
+  <div class="video world container" data-aos="fade-up" data-aos-delay="1300"> </div>
 
   <section class="container section__description">
-    <h2 class="section__title">
+    <h2 class="section__title" data-aos="fade-left" data-aos-delay="200">
       Falcon Heavy Overview
     </h2>
 
-    <table class="description__table">
+    <table class="description__table" data-aos="fade-left" data-aos-delay="200">
       <tr class="table__row">
         <td class="table__column">HEIGHT</td>
         <td class="table__column">70 m / <span class="description__text--dark">229.6 ft</span></td>
@@ -75,16 +76,16 @@
 
     <img src="img/falcon-heavy.png" alt="rocket" class="description__rocket" data-rellax-speed="9">
 
-    <h2 class="section__title">
+    <h2 class="section__title" data-aos="fade-left" data-aos-delay="200">
       UNMATCHED PERFORMANCE
     </h2>
 
-    <p class="text description__text">
+    <p class="text description__text" data-aos="fade-left" data-aos-delay="200">
       With more than 5 million pounds of thrust at liftoff, Falcon Heavy is the most capable rocket flying. By comparison, the liftoff thrust of the Falcon Heavy equals approximately eighteen 747 aircraft at full power. Falcon Heavy can lift the equivalent of a fully loaded 737 jetliner—complete with passengers, luggage and fuel—to orbit.
     </p>
   </section>
 
-  <footer class="footer container">
+  <footer class="footer container" data-aos="zoom-in" data-aos-delay="400">
     <img src="img/logo.svg" alt="logo space x" class="footer__logo">
 
     <nav class="footer__nav nav">
@@ -107,6 +108,7 @@
   </footer>
   
   <script src="js/vidbg.js"></script>
+  <script src="js/aos.js"></script>
   <script src="js/rellax.min.js"></script>
   <script src="js/main.js"></script>
 </body>
